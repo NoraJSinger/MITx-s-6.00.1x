@@ -2,7 +2,21 @@
 """
 Created on Tue Oct 11 11:07:55 2016
 
-@author: Nora Julianna kovacs
+@author: Nora Singer
+
+Hangman Game
+
+First, implement the function isWordGuessed that takes in two parameters - a string, secretWord, and a list of letters, 
+lettersGuessed. This function returns a boolean - True if secretWord has been guessed (ie, all the letters of secretWord are 
+in lettersGuessed) and False otherwise.
+
+Example Usage:
+
+>>> secretWord = 'apple' 
+>>> lettersGuessed = ['e', 'i', 'k', 'p', 'r', 's']
+>>> print(isWordGuessed(secretWord, lettersGuessed))
+False
+For this function, you may assume that all the letters in secretWord and lettersGuessed are lowercase.
 """
 
 def main():
